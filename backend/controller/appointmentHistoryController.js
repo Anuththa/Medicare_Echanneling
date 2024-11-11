@@ -1,5 +1,3 @@
-// appointmentHistoryController.js
-
 const Appointment = require("../models/appointmentHistorySchema");
 
 // Controller to get appointment history for the authenticated user
