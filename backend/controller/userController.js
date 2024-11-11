@@ -1,8 +1,3 @@
-/*// controller/userController.js
-import { catchAsyncErrors } from '../middlewares/catchAsyncErrors.js';
-import { User } from '../models/userSchema.js';
-import ErrorHandler from '../middlewares/errorMiddleware.js';
-import { generateToken } from '../utils/jwtToken.js';
 
 export const login = catchAsyncErrors(async (req, res, next) => {
     console.log('login called with body:', req.body);
